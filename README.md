@@ -1,17 +1,43 @@
-## Running React on Replit
+## Social Photo Manager
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Welcome to the Social Photo Manager! This project is a simple web application that allows users to upload images, share them with friends, and view analytics on how many times their photos have been viewed. The backend is powered by Firebase Firestore, and the frontend is built with React.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- User authentication (Sign up and Log in)
+- Image upload and storage
+- Image sharing via links
+- View count analytics for shared images
+- Clean and responsive UI/UX
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Live Demo
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+Check out the live demo of the application [here](https://photoportal.netlify.app/).
 
-### Typescript
+## Technologies Used
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+- React.js
+- Firebase Firestore
+- Firebase Authentication
+- Firebase Storage
+- React Router
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- Node.js and npm installed
+- Firebase account and project setup
+
+### Installation
+
+   ```bash
+   git clone  https://github.com/rohanworld/Social_Photo_Manager_Portal.git
+   cd social-photo-manager
+   npm install
+   (add firebase config details)
+   //npm run dev
+  ```
+
