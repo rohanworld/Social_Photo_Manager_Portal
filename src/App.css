@@ -1,0 +1,35 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
+  background-color: #eef2f3;
+}
+.welcome-message {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.app-header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.app-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.app-footer {
+  background-color: #3f51b5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,57 @@
+/* Analytics.css */
+.analytics-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.back-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #3f51b5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  background-color: #303f9f;
+}
+
+.analytics-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.analytics-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.analytics-table th,
+.analytics-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.analytics-table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.analytics-item {
+  font-size: 18px;
+  color: #555;
+}
